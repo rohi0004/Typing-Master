@@ -1,0 +1,29 @@
+body {
+  background-image: url('images/background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.link-danger{
+text-decoration: none;
+}
+.h-custom {
+position: relative;
+height:100%;
+}
+
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
